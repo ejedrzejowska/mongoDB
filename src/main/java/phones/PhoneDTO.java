@@ -2,7 +2,7 @@ package phones;
 
 import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Setter
 @Getter
@@ -16,7 +16,7 @@ public class PhoneDTO {
     private String brand;
     private Double ram;
     private Boolean touchScreen;
-    private Date date;
+    private LocalDate date;
     private Double weight;
     private String operatingSystem;
     private String displayProtection;
